@@ -32,6 +32,6 @@ gulp.task('watch', function () {
   gulp.watch('./app/**/*.html');
 });
 
-
+// lorem 
 gulp.watch("app/**/*.*").on('change', browserSync.reload);
 gulp.task('default',['sass','autoprefixer','serve','watch'])
